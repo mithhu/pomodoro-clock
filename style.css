@@ -1,0 +1,156 @@
+
+.main {
+    background-color: #60ffca;
+    display:inline-block;
+    margin-left:39%;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 300px;
+   
+}
+body {
+    background-color: #87ffd7;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+#stroke {
+/*  fill: white;*/
+ 
+  display: block;
+  position: relative;
+  fill:#0F1126;
+  
+}
+
+.stroke {
+   stroke: aqua;
+  stroke-width: 8;
+  stroke-dasharray: 250;
+  stroke-dashoffset: 1000;
+  animation: rotate 5s  linear infinite ;
+}
+
+.strokes {
+   stroke: red;
+  stroke-width: 8;
+  stroke-dasharray: 250;
+  stroke-dashoffset: 1000;
+  animation: rotate 5s  linear infinite ;
+}
+
+
+.final {
+        background-color: #0F1126;
+       color: #FFFFFF;
+        padding-bottom: 10px;
+    display: block;
+   
+}
+p{
+    color: #0F1126;
+}
+.para {
+  color: white;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+
+
+@keyframes rotate {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* @media only screen and (max-width: 1220px)  {
+  body {
+    width:80%
+    
+  }
+  
+  .main {
+    margin-top: 2%;
+    margin-left: 60%;
+    margin-right: auto;
+  }
+  
+  .work {
+    margin-top: -10%;
+  }
+
+ 
+  
+ 
+} */
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+  .main {
+    
+    margin-right: auto;
+    margin-left: 35%;
+  }
+} 
+@media only screen and (max-width: 1023px)  {
+  body {
+    width:80%
+    
+  }
+  
+  .main {
+    margin-top:30%;
+    margin-right: auto;
+    margin-left: 35%;
+  }
+  
+  .work {
+    margin-top: -12%;
+    margin-bottom: 12%;
+  }
+ .para {
+   margin-top: -10%;
+  }
+
+ 
+  
+ 
+}
+@media only screen and (max-width: 480px)  {
+  body {
+    width:35%
+    
+  }
+  .main {
+    margin-top: -25%;
+    margin-left: 40%;
+    matgin-right: auto;
+  }
+
+ @media only screen and (max-width: 405px)  {
+  body {
+    width:35%
+    
+  }
+   .main {
+     width: 275px;
+   }
+   @media only screen and (max-width: 374px)  {
+  body {
+    width:30%
+    
+  }
+   .main {
+     width: 270px;
+     margin-left: 21%;
+       margin-right: auto;
+   }
+ 
+}
+/* @media only screen and (min-width: 1367px)  {
+  
+  .main {
+    
+    margin-left: 40%;
+    matgin-right: auto;
+  } */
